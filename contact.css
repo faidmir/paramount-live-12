@@ -1,0 +1,390 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+
+nav{
+    position: fixed;
+    top: 0;
+    z-index: 2;
+    right: 0;
+    left: 0;
+    background-color: #fff;
+}
+.upper-nav{
+    display: flex;
+    height: 30px;
+ 
+    justify-content: space-between;
+    background-color: #212529;
+color: white;
+align-items: center;
+padding: 0 10px;
+
+}
+
+
+.social-midia ul{
+    display: flex;
+    margin: 0;
+    gap: 15px;
+}
+.social-midia ul li{
+    list-style: none;
+}
+.call ul{
+    display: flex;
+    margin: 0;
+    gap: 15px;
+}
+.call ul li{
+list-style: none;
+}
+.nav-link a{
+    text-decoration: none;
+    color: black;
+}
+.logo img{
+    width: 200px;
+}
+.full-nav{
+    display: flex;
+    justify-content: space-between;
+    
+    align-items: center;
+
+    
+}
+.nav-link  ul{
+    display: flex;
+    gap: 25px;
+}
+.nav-link ul li{
+    list-style: none;
+    color: gray;
+    border-left: 1px solid gray;
+    border-right: 1px solid gray;
+    padding: 0 15px;
+}
+.sub-footer{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: white;
+    background-image: url(/assets/footer-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 380px;
+}
+.comp{
+    display: flex;
+    flex-direction: column;
+   
+    padding: 30px 19px;
+    width: 338px;
+    text-align: justify;
+}
+.comp h2{
+    font-size: 1.3rem;
+}
+.comp li{
+    font-size: .9rem;
+    list-style: none;
+    text-decoration: none;
+    padding: 10px 0;
+}
+.comp ul{
+    padding: 0;
+
+}
+.reach{
+    display: flex;
+    flex-direction: column;
+    padding: 27px 19px;
+    width: 402px;
+    text-align: justify;
+}
+.reach ul{
+    padding: 0;
+}
+.reach li{
+    list-style: none;
+    text-decoration: none;
+    font-size: .9rem;
+    padding: 6px 0;
+ 
+}
+.reach h2{
+    font-size: 1.3rem;
+}
+.reach i{
+    padding: 0 5px;
+}
+.footer{
+    margin: 0;
+    padding: 10px 0;
+    background: #202020;
+     color: white;
+}
+.footer h3{
+    font-size: .9rem;
+    text-align: center;
+}
+
+nav.phone{
+    display: none;
+}
+
+
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  scroll-behavior: smooth;
+  box-sizing: border-box;
+}
+
+body {
+  overflow-x: hidden;
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+}
+
+ul {
+  list-style: none;
+}
+
+input {
+  overflow: hidden;
+}
+
+.section-title {
+  position: relative;
+  font-size: 30px;
+  font-weight: 600;
+  font-family: "Poppins", sans-serif;
+  margin: 0 0 35px;
+}
+
+.sec-pad {
+  padding: 60px 0 0;
+  margin: 50px 0 0 0;
+}
+
+.contact-sec {
+  align-items: center;
+  display: flex;
+  background-color: #5cbde466;
+}
+
+.contact-sec .contact-ul li,
+.contact-ul b {
+  font-size: 20px;
+  margin: 10px 0;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  word-wrap: break-word;
+}
+
+.contact-sec .contact-ul i {
+  font-size: 18px;
+  padding: 10px;
+  margin-right: 10px;
+  border-radius: 50%;
+}
+.contact-detail a {
+  color: #000;
+  text-decoration: none;
+}
+
+.contact-sec .contact-ul li b:hover {
+  color: #f93;
+}
+
+.contact-sec .contact-ul li .fa-location-dot {
+  color: #f44337;
+  border: 2px solid #f4433790;
+}
+
+.contact-sec .contact-ul li .fa-phone {
+  color: #00b055;
+  border: 2px solid #00b05590;
+}
+
+.contact-sec .contact-ul li .fa-envelope {
+  color: #ff6347;
+  border: 2px solid #ff634790;
+}
+
+.contact-detail span {
+  width: 400px;
+  display: flex;
+  justify-content: center;
+}
+.contact-detail span a {
+  font-size: 20px;
+  padding: 6px 12px;
+  color: #000;
+  border-radius: 50%;
+  margin: 0px 5px;
+}
+.contact-detail span .fb {
+  color: #3b5998;
+  border: 3px solid #3b5998;
+}
+.contact-detail span .fb:hover {
+  color: #fff;
+  background-color: #3b5998;
+}
+
+.contact-detail span .insta {
+  color: #833ab4;
+  border: 3px solid #833ab4;
+}
+.contact-detail span .insta:hover {
+  color: #fff;
+  background-color: #833ab4;
+}
+
+.contact-detail span .twitter {
+  color: #00acee;
+  border: 3px solid #00acee;
+}
+.contact-detail span .twitter:hover {
+  color: #fff;
+  background-color: #00acee;
+}
+
+form.contFrm {
+  max-width: 396px;
+  margin: auto;
+}
+
+.inptFld {
+  width: 100%;
+  height: 50px;
+  border: 0;
+  margin: 0 0 10px;
+  border-radius: 8px;
+  padding: 0 20px;
+  font-size: 16px;
+  color: #000;
+}
+
+.inptFld:focus {
+  outline-offset: -4px;
+  outline: 1px solid #f93;
+}
+
+.contFrm textarea {
+  height: 75px;
+  padding-top: 5px;
+}
+.inptBtn {
+  height: 50px;
+  border: 0;
+  background: #00b055;
+  font-size: 14px;
+  color: #fff;
+  margin: auto;
+  letter-spacing: 1px;
+  cursor: pointer;
+  width: 100%;
+  max-width: 200px;
+}
+
+/* Responcive css Start */
+
+@media (max-width: 991px) {
+  .sec-pad {
+    padding: 20px 0 0px;
+  }
+
+  .contact-sec .contact-ul li,
+  .contact-ul b {
+    font-size: 18px;
+  }
+
+  .contact-sec .contact-ul i {
+    font-size: 14px;
+    padding: 6px;
+    margin-right: 6px;
+  }
+
+  .inptFld {
+    height: 40px;
+    margin: 0 0 10px;
+    padding: 0 14px;
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 767px) {
+  .contact-detail span {
+    width: auto;
+  }
+  .contact-detail span a {
+    font-size: 18px;
+    padding: 5px 10px;
+    color: #000;
+    border-radius: 50%;
+    margin: 0px 5px 20px;
+  }
+}
+
+@media (max-width: 575px) {
+  .section-title {
+    font-size: 26px;
+    font-weight: 500;
+  }
+  .contact-sec {
+    border-radius: 10% 10% 0% 0% / 5% 5% 0% 0%;
+  }
+
+  .contact-sec .contact-ul i {
+    border: none;
+  }
+  .inptFld {
+    height: 36px;
+    margin: 0 0 8px;
+    padding: 0 14px;
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 480px) {
+  .contact-sec .contact-ul li,
+  .contact-ul b {
+    font-size: 16px;
+  }
+}
+
+
+
+
+@media only screen and (max-width: 660px){
+
+    .contact-sec {
+        margin-top: 70px;
+    }
+    nav.lap{
+        display: none;
+    }
+    nav.phone{
+        display: flex;
+    
+    }
+    .navbar-brand{
+        width: 170px;
+    }
+    .navbar-brand img{
+        width: 100%;
+    }
+    }
